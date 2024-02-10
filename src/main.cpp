@@ -3,7 +3,7 @@
 #include "generated/psk.hpp"
 
 namespace config {
-constexpr static iop::time::milliseconds interval = 180 * 1000;
+constexpr static iop::time::milliseconds interval = 30 * 1000;
 constexpr static int8_t timezone = -3;
 constexpr static char SSID_RAW[] IOP_ROM = "iop";
 static const iop::StaticString SSID = reinterpret_cast<const __FlashStringHelper*>(SSID_RAW);
